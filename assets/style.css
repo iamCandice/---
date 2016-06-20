@@ -1,0 +1,201 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    font-family: 微軟正黑體;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+#logo {
+    display: block;
+    background: transparent url('../images/logo.jpg');
+    text-indent: -999px;
+    width: 100px;
+    height: 100px;
+    margin: 5px 25px 5px 0;
+}
+.des_a{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.nav_can{
+    float: right;
+    padding-top: 63px;
+font-size: 23px;
+}
+nav {
+    padding: 1em 5em;  
+}
+#navadd li {
+    text-align: bottom;
+}
+nav li{
+    vertical-align: bottom;
+}
+
+input["type"="text"] {
+    
+}
+#descript{
+    padding-left: 20px;
+}
+
+.btn {
+    border-radius: 999px;
+    padding: 7px 18px;
+}
+
+.about-section {
+    text-align: center;
+    padding: 2em 0;
+}
+
+.about-section h1 {
+    color: #0DBFDD;
+}
+
+.content {
+    //background: #0DBFDD;
+    padding: 2em 0;
+    text-align: center;
+    color: white;
+}
+
+.content>div {
+    display: inline-block;
+    margin:  2em;
+    vertical-align: top;
+    margin: 0 auto;
+}
+
+.content>div img {
+    width: 300px;
+    height: 300px;
+    border: 5px solid transparent;
+    border-radius: 20px;
+    background: black;
+    display: block;
+    margin: 0 auto;
+    margin-top:10px; 
+    transition: border 250ms ease;
+}
+
+.content>div img:hover {
+    border: 5px solid white;
+}
+
+.content div{
+    width: 680px;
+    height: auto;
+ 
+    background: #f8f8f8;
+    color: #777777;
+    margin-top: 10px;
+    margin: 8px;
+    padding:15px;
+    border-radius: 25px;
+}
+.content div h3{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.content div p{
+    font-size: 20px;
+    padding-left: 10px;
+padding-right: 10px;
+}
+#des{
+    text-align: left;
+     font-size: 20px;
+}
+}
+.navbar {
+    margin-bottom: 0;
+}
+
+#myCarousel {
+    margin: 0;
+}
+
+
+@media (max-width:969px) {
+    .carousel-caption p {
+        font-size: 90%;
+    }
+}
+
+
+@media (max-width:769px) {
+    
+    .carousel-caption p {
+        display: none;
+    }
+    
+    .carousel-caption h1 {
+        font-size: 130%;
+    }
+    
+    .carousel-caption .btn {
+        display: none;
+    }
+    
+    .content h1{
+        margin-bottom: 1em;
+    }
+    
+    .content>div {
+        display:block;
+        min-height: 150px;
+        margin: 1em 0;
+        text-align: left;
+    }
+    
+    .content>div img {
+        float: left;
+        margin: 0 15px 0 10%;
+    }
+    
+    .qsection {
+        display: block;
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+        opacity: 1;
+    }
+    
+    .qsection:nth-child(odd) hr {
+        height: 0;
+        overflow: hidden;
+        border-bottom: 2px dashed black;
+        border-bottom-color: black;
+    }
+    
+    .qsection:nth-child(odd){
+        background: white;
+        color: black;
+        border-color: black;
+    }
+    
+}
+
+.contact-box {
+    text-align: center;
+}
+
+.contact-box textarea {
+    display: block;
+    width: 90%;
+    height: 3em;
+    margin: 0.5em auto;
+    transition: height 300ms ease-out;
+    padding: 10px;
+    border: 2px dotted black;
+}
+
+.contact-box textarea:focus {
+    height: 7em;
+}
+
+footer{
+    text-align: right;
+}
